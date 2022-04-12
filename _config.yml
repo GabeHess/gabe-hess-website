@@ -1,0 +1,48 @@
+# Site settings
+title_left    : "GABE HESS"
+title_right   : "" # default: ""
+title: "Gabe Hess"
+description   : "The essays and poems of Gabe Hess."
+keywords      : "Gabe Hess, Gabriel Hess, essays, poems, poetry"
+url           :  https://gabehess.com # site url
+baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
+cover         : "" # image uri like logo/cover image for site seo
+paginate: 12
+
+google_analytics  :
+twitter_username  : ""
+comments_enabled  : false # if enabled (set to true), please provide your disqus_username
+disqus_shortname  : ""
+postshare_enabled : false
+
+# Build settings
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : rouge
+
+source      : ./
+destination : ./_site
+
+# Sass configuration
+sass:
+  sass_dir  : assets/scss
+  style     : compressed # expanded
+
+# Author settings
+author:
+  name     : "Gabe Hess"
+
+plugins:
+  - jekyll-sitemap
+  - bourbon
+  - jekyll-paginate
+
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md", "script"]
+include: [_redirects]
