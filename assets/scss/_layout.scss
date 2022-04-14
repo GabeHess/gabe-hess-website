@@ -72,14 +72,6 @@ hr {
   margin-bottom: $small-spacing;
   min-height: 80px;
 
-  @include more_mobile {
-    min-height: 100px;
-  }
-
-  @include even_more_mobile {
-    min-height: 130px;
-  }
-
 }
 
 .intro {
@@ -137,6 +129,17 @@ hr {
 
   @include mobile {
     visibility: hidden;
+  }
+}
+
+.navbar_mobile {
+
+  position: fixed;
+  right: 35px;
+  top: 30px;
+
+  @include desktop {
+      visibility: hidden;
   }
 }
 

@@ -70,3 +70,9 @@ $base-timing: ease;
     @content;
   }
 }
+
+@mixin desktop {
+  @media screen and (min-width: 581px) {
+    @content;
+  }
+}
