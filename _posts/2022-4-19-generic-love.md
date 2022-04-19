@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Generic Love"
+comments: false
+description: "Generic love, as sonneteers / Commend unto a thousand years, ..."
+categories: poems
+---
+
+<div class="p">Generic love, as sonneteers</div>
+<div class="p">Commend unto a thousand years,</div>
+<div class="p">Has not the eccentric quality</div>
+<div class="p">Of that between yourself and me.</div>
+<div class="p">We put sarcastic words between,</div>
+<div class="p">With dry expression, oh my quean,</div>
+<div class="p">Our lovèd persons. We two spar</div>
+<div class="p">For love, our love is good as war,</div>
+<div class="p">And all who see us have no mind</div>
+<div class="p">How we two dote, we too are blind.</div>
