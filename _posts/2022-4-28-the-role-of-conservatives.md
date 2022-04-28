@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "The Role of the Conservative"
+title: "The Role of Conservatives"
 comments: false
-description: "The premise of this essay is that it is useful to explain any fact which might constitute a minor obstacle to the truth."
+description: "Conservatives have long debated the meaning of the ideology, philosophy, or attitude called “conservatism.”"
 categories: essays
 ---
 
